@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C5F9E95234F3E7800C088E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */; };
 		6C5F9E96234F3E7800C088E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6F234F3E7800C088E1 /* LaunchScreen.storyboard */; };
 		6C5F9E97234F3E7800C088E1 /* MKMapView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */; };
 		6C5F9E98234F3E7800C088E1 /* Double+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E74234F3E7800C088E1 /* Double+Additions.swift */; };
@@ -50,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C5F9E70234F3E7800C088E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+Additions.swift"; sourceTree = "<group>"; };
 		6C5F9E74234F3E7800C088E1 /* Double+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Additions.swift"; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 		6C5F9E6D234F3E7800C088E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */,
 				6C5F9E6F234F3E7800C088E1 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
@@ -394,7 +391,6 @@
 				6C6DDA97234A687F0040134B /* Assets.xcassets in Resources */,
 				6C5F9E96234F3E7800C088E1 /* LaunchScreen.storyboard in Resources */,
 				6C6DDA95234A687E0040134B /* Main.storyboard in Resources */,
-				6C5F9E95234F3E7800C088E1 /* Assets.xcassets in Resources */,
 				6C5F9EA8234F3E7800C088E1 /* MapViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
