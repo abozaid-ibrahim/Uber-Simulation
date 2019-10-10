@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C5F9E94234F3E7800C088E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6C234F3E7800C088E1 /* Info.plist */; };
 		6C5F9E95234F3E7800C088E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */; };
 		6C5F9E96234F3E7800C088E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6F234F3E7800C088E1 /* LaunchScreen.storyboard */; };
 		6C5F9E97234F3E7800C088E1 /* MKMapView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */; };
@@ -35,7 +34,6 @@
 		6C5F9EAD234F3E7800C088E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E93234F3E7800C088E1 /* AppDelegate.swift */; };
 		6C6DDA95234A687E0040134B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DDA93234A687E0040134B /* Main.storyboard */; };
 		6C6DDA97234A687F0040134B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DDA96234A687F0040134B /* Assets.xcassets */; };
-		6C6DDA9A234A687F0040134B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DDA98234A687F0040134B /* LaunchScreen.storyboard */; };
 		6C6DDAA5234A687F0040134B /* UberDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DDAA4234A687F0040134B /* UberDemoTests.swift */; };
 		A7936348302F57F060E183BF /* Pods_UberDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D576206AF04D24037DC2BA1A /* Pods_UberDemo.framework */; };
 		AEBA75D94AA82CE51B20B01B /* Pods_UberDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972601F041F6EF7A47AA39AF /* Pods_UberDemoTests.framework */; };
@@ -52,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C5F9E6C234F3E7800C088E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C5F9E70234F3E7800C088E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+Additions.swift"; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 		6C6DDA8C234A687D0040134B /* UberDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6DDA94234A687E0040134B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C6DDA96234A687F0040134B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C6DDA99234A687F0040134B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6DDA9B234A687F0040134B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6DDAA0234A687F0040134B /* UberDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6DDAA4234A687F0040134B /* UberDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberDemoTests.swift; sourceTree = "<group>"; };
@@ -117,7 +113,6 @@
 		6C5F9E6B234F3E7800C088E1 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				6C5F9E6C234F3E7800C088E1 /* Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -277,7 +272,6 @@
 				6C5F9E71234F3E7800C088E1 /* Utilities */,
 				6C6DDA93234A687E0040134B /* Main.storyboard */,
 				6C6DDA96234A687F0040134B /* Assets.xcassets */,
-				6C6DDA98234A687F0040134B /* LaunchScreen.storyboard */,
 				6C6DDA9B234A687F0040134B /* Info.plist */,
 			);
 			path = UberDemo;
@@ -397,8 +391,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C5F9E94234F3E7800C088E1 /* Info.plist in Resources */,
-				6C6DDA9A234A687F0040134B /* LaunchScreen.storyboard in Resources */,
 				6C6DDA97234A687F0040134B /* Assets.xcassets in Resources */,
 				6C5F9E96234F3E7800C088E1 /* LaunchScreen.storyboard in Resources */,
 				6C6DDA95234A687E0040134B /* Main.storyboard in Resources */,
@@ -562,14 +554,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6C6DDA98234A687F0040134B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C6DDA99234A687F0040134B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -624,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -679,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -702,7 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = abuzeid.UberDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -720,7 +704,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = abuzeid.UberDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
