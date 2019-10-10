@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="3uR-5O-FBr">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" id="VuX-GC-sHy" customClass="MapViewController" customModule="allygator_shuttle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rEr-fN-Oe6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" pitchEnabled="NO" showsBuildings="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPC-mY-Ucq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="VuX-GC-sHy" id="LAs-rX-0NG"/>
+                                </connections>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQh-2f-xKb">
+                                <rect key="frame" x="16" y="792" width="382" height="50"/>
+                                <color key="backgroundColor" red="0.13574430346488953" green="0.31330752372741699" blue="0.33333832025527954" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZgL-RH-Bud"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Book Ride">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="1" alpha="0.59867407570422537" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9s-SA-K6B">
+                                <rect key="frame" x="16" y="777.5" width="382" height="124.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uD-C8-LSJ">
+                                        <rect key="frame" x="16" y="16" width="56" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Picked Up" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpf-vJ-mOV">
+                                        <rect key="frame" x="16" y="35.5" width="350" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21651563048362732" green="0.38133209943771362" blue="0.31371834874153137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="rpf-vJ-mOV" firstAttribute="leading" secondItem="A9s-SA-K6B" secondAttribute="leading" constant="16" id="9ov-Ab-eR8"/>
+                                    <constraint firstAttribute="trailing" secondItem="rpf-vJ-mOV" secondAttribute="trailing" constant="16" id="FXI-Nc-oXR"/>
+                                    <constraint firstItem="rpf-vJ-mOV" firstAttribute="top" secondItem="3uD-C8-LSJ" secondAttribute="bottom" id="NLJ-4A-eFm"/>
+                                    <constraint firstItem="3uD-C8-LSJ" firstAttribute="top" secondItem="A9s-SA-K6B" secondAttribute="top" constant="16" id="YER-Jr-kTg"/>
+                                    <constraint firstItem="3uD-C8-LSJ" firstAttribute="leading" secondItem="A9s-SA-K6B" secondAttribute="leading" constant="16" id="ewr-AY-nxn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sPC-mY-Ucq" secondAttribute="trailing" id="4bZ-7k-Bp0"/>
+                            <constraint firstItem="yeV-mf-6QE" firstAttribute="trailing" secondItem="oQh-2f-xKb" secondAttribute="trailing" constant="16" id="JLP-wc-AY1"/>
+                            <constraint firstAttribute="bottom" secondItem="A9s-SA-K6B" secondAttribute="bottom" constant="-6" id="NKP-SN-eiw"/>
+                            <constraint firstItem="oQh-2f-xKb" firstAttribute="leading" secondItem="yeV-mf-6QE" secondAttribute="leading" constant="16" id="UhY-dY-05I"/>
+                            <constraint firstAttribute="trailing" secondItem="A9s-SA-K6B" secondAttribute="trailing" constant="16" id="XGR-Ss-1XU"/>
+                            <constraint firstItem="A9s-SA-K6B" firstAttribute="leading" secondItem="rEr-fN-Oe6" secondAttribute="leading" constant="16" id="cHI-EL-JNb"/>
+                            <constraint firstItem="yeV-mf-6QE" firstAttribute="bottom" secondItem="rpf-vJ-mOV" secondAttribute="bottom" constant="32" id="jfu-uc-317"/>
+                            <constraint firstItem="sPC-mY-Ucq" firstAttribute="leading" secondItem="rEr-fN-Oe6" secondAttribute="leading" id="r7u-bs-pWl"/>
+                            <constraint firstItem="yeV-mf-6QE" firstAttribute="bottom" secondItem="oQh-2f-xKb" secondAttribute="bottom" constant="20" id="rSx-rT-N3y"/>
+                            <constraint firstAttribute="bottom" secondItem="sPC-mY-Ucq" secondAttribute="bottom" id="vva-Z4-Ozb"/>
+                            <constraint firstItem="sPC-mY-Ucq" firstAttribute="top" secondItem="rEr-fN-Oe6" secondAttribute="top" id="zmo-wE-3fS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yeV-mf-6QE"/>
+                    </view>
+                    <connections>
+                        <outlet property="bookRideButton" destination="oQh-2f-xKb" id="naA-Uf-Soj"/>
+                        <outlet property="bookingStatusLabel" destination="rpf-vJ-mOV" id="nyj-F3-1Zw"/>
+                        <outlet property="bookingStatusView" destination="A9s-SA-K6B" id="EdN-L2-9wN"/>
+                        <outlet property="mapView" destination="sPC-mY-Ucq" id="Q8G-qf-SJC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5WT-Us-oGW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="22.767857142857142"/>
+        </scene>
+    </scenes>
+</document>

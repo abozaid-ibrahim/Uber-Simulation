@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C6DDA90234A687D0040134B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DDA8F234A687D0040134B /* AppDelegate.swift */; };
-		6C6DDA92234A687E0040134B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DDA91234A687E0040134B /* ViewController.swift */; };
+		6C5F9E94234F3E7800C088E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6C234F3E7800C088E1 /* Info.plist */; };
+		6C5F9E95234F3E7800C088E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */; };
+		6C5F9E96234F3E7800C088E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E6F234F3E7800C088E1 /* LaunchScreen.storyboard */; };
+		6C5F9E97234F3E7800C088E1 /* MKMapView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */; };
+		6C5F9E98234F3E7800C088E1 /* Double+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E74234F3E7800C088E1 /* Double+Additions.swift */; };
+		6C5F9E99234F3E7800C088E1 /* CLCoordinate2D+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E75234F3E7800C088E1 /* CLCoordinate2D+Additions.swift */; };
+		6C5F9E9A234F3E7800C088E1 /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E77234F3E7800C088E1 /* StoryboardLoadable.swift */; };
+		6C5F9E9B234F3E7800C088E1 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E78234F3E7800C088E1 /* Reusable.swift */; };
+		6C5F9E9C234F3E7800C088E1 /* SocketManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E79234F3E7800C088E1 /* SocketManagerType.swift */; };
+		6C5F9E9D234F3E7800C088E1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E7A234F3E7800C088E1 /* Coordinator.swift */; };
+		6C5F9E9E234F3E7800C088E1 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E7C234F3E7800C088E1 /* Storyboard.swift */; };
+		6C5F9E9F234F3E7800C088E1 /* BookingInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E7E234F3E7800C088E1 /* BookingInformation.swift */; };
+		6C5F9EA0234F3E7800C088E1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E7F234F3E7800C088E1 /* Location.swift */; };
+		6C5F9EA1234F3E7800C088E1 /* BookingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E80234F3E7800C088E1 /* BookingStatus.swift */; };
+		6C5F9EA2234F3E7800C088E1 /* BookingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E81234F3E7800C088E1 /* BookingEvent.swift */; };
+		6C5F9EA3234F3E7800C088E1 /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E84234F3E7800C088E1 /* MapCoordinator.swift */; };
+		6C5F9EA4234F3E7800C088E1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E85234F3E7800C088E1 /* MapViewController.swift */; };
+		6C5F9EA5234F3E7800C088E1 /* VehicleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E88234F3E7800C088E1 /* VehicleAnnotationView.swift */; };
+		6C5F9EA6234F3E7800C088E1 /* VehicleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E89234F3E7800C088E1 /* VehicleAnnotation.swift */; };
+		6C5F9EA7234F3E7800C088E1 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E8A234F3E7800C088E1 /* MapViewModel.swift */; };
+		6C5F9EA8234F3E7800C088E1 /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5F9E8B234F3E7800C088E1 /* MapViewController.storyboard */; };
+		6C5F9EA9234F3E7800C088E1 /* MapCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E8D234F3E7800C088E1 /* MapCoordinatorType.swift */; };
+		6C5F9EAA234F3E7800C088E1 /* MapViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E8E234F3E7800C088E1 /* MapViewModelType.swift */; };
+		6C5F9EAB234F3E7800C088E1 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E90234F3E7800C088E1 /* SocketManager.swift */; };
+		6C5F9EAC234F3E7800C088E1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E92234F3E7800C088E1 /* AppCoordinator.swift */; };
+		6C5F9EAD234F3E7800C088E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9E93234F3E7800C088E1 /* AppDelegate.swift */; };
 		6C6DDA95234A687E0040134B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DDA93234A687E0040134B /* Main.storyboard */; };
 		6C6DDA97234A687F0040134B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DDA96234A687F0040134B /* Assets.xcassets */; };
 		6C6DDA9A234A687F0040134B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DDA98234A687F0040134B /* LaunchScreen.storyboard */; };
 		6C6DDAA5234A687F0040134B /* UberDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DDAA4234A687F0040134B /* UberDemoTests.swift */; };
-		6CA1B0B2234A8D96007B7360 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1B0B1234A8D96007B7360 /* APIConstants.swift */; };
-		6CC87555234CB2A900BC9687 /* EventApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC87554234CB2A900BC9687 /* EventApiResponse.swift */; };
-		6CC87557234CD8AB00BC9687 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC87556234CD8AB00BC9687 /* Model.swift */; };
-		6CC87559234CD92700BC9687 /* ViewController+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC87558234CD92700BC9687 /* ViewController+WebSocket.swift */; };
 		A7936348302F57F060E183BF /* Pods_UberDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D576206AF04D24037DC2BA1A /* Pods_UberDemo.framework */; };
 		AEBA75D94AA82CE51B20B01B /* Pods_UberDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972601F041F6EF7A47AA39AF /* Pods_UberDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -32,9 +52,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C5F9E6C234F3E7800C088E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C5F9E70234F3E7800C088E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+Additions.swift"; sourceTree = "<group>"; };
+		6C5F9E74234F3E7800C088E1 /* Double+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Additions.swift"; sourceTree = "<group>"; };
+		6C5F9E75234F3E7800C088E1 /* CLCoordinate2D+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLCoordinate2D+Additions.swift"; sourceTree = "<group>"; };
+		6C5F9E77234F3E7800C088E1 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
+		6C5F9E78234F3E7800C088E1 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		6C5F9E79234F3E7800C088E1 /* SocketManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManagerType.swift; sourceTree = "<group>"; };
+		6C5F9E7A234F3E7800C088E1 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6C5F9E7C234F3E7800C088E1 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		6C5F9E7E234F3E7800C088E1 /* BookingInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingInformation.swift; sourceTree = "<group>"; };
+		6C5F9E7F234F3E7800C088E1 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6C5F9E80234F3E7800C088E1 /* BookingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingStatus.swift; sourceTree = "<group>"; };
+		6C5F9E81234F3E7800C088E1 /* BookingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingEvent.swift; sourceTree = "<group>"; };
+		6C5F9E84234F3E7800C088E1 /* MapCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		6C5F9E85234F3E7800C088E1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6C5F9E88234F3E7800C088E1 /* VehicleAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleAnnotationView.swift; sourceTree = "<group>"; };
+		6C5F9E89234F3E7800C088E1 /* VehicleAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleAnnotation.swift; sourceTree = "<group>"; };
+		6C5F9E8A234F3E7800C088E1 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		6C5F9E8B234F3E7800C088E1 /* MapViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
+		6C5F9E8D234F3E7800C088E1 /* MapCoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCoordinatorType.swift; sourceTree = "<group>"; };
+		6C5F9E8E234F3E7800C088E1 /* MapViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModelType.swift; sourceTree = "<group>"; };
+		6C5F9E90234F3E7800C088E1 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		6C5F9E92234F3E7800C088E1 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6C5F9E93234F3E7800C088E1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6DDA8C234A687D0040134B /* UberDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C6DDA8F234A687D0040134B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C6DDA91234A687E0040134B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C6DDA94234A687E0040134B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C6DDA96234A687F0040134B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6DDA99234A687F0040134B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,10 +86,6 @@
 		6C6DDAA0234A687F0040134B /* UberDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6DDAA4234A687F0040134B /* UberDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberDemoTests.swift; sourceTree = "<group>"; };
 		6C6DDAA6234A687F0040134B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CA1B0B1234A8D96007B7360 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
-		6CC87554234CB2A900BC9687 /* EventApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventApiResponse.swift; sourceTree = "<group>"; };
-		6CC87556234CD8AB00BC9687 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		6CC87558234CD92700BC9687 /* ViewController+WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+WebSocket.swift"; sourceTree = "<group>"; };
 		788927BB7AC9D6CEE0782FFD /* Pods-UberDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberDemo.debug.xcconfig"; path = "Target Support Files/Pods-UberDemo/Pods-UberDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		972601F041F6EF7A47AA39AF /* Pods_UberDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576206AF04D24037DC2BA1A /* Pods_UberDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +114,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5F9E6B234F3E7800C088E1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E6C234F3E7800C088E1 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		6C5F9E6D234F3E7800C088E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E6E234F3E7800C088E1 /* Assets.xcassets */,
+				6C5F9E6F234F3E7800C088E1 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C5F9E71234F3E7800C088E1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E72234F3E7800C088E1 /* Extensions */,
+				6C5F9E76234F3E7800C088E1 /* Protocols */,
+				6C5F9E7B234F3E7800C088E1 /* Helpers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6C5F9E72234F3E7800C088E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E73234F3E7800C088E1 /* MKMapView+Additions.swift */,
+				6C5F9E74234F3E7800C088E1 /* Double+Additions.swift */,
+				6C5F9E75234F3E7800C088E1 /* CLCoordinate2D+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6C5F9E76234F3E7800C088E1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E77234F3E7800C088E1 /* StoryboardLoadable.swift */,
+				6C5F9E78234F3E7800C088E1 /* Reusable.swift */,
+				6C5F9E79234F3E7800C088E1 /* SocketManagerType.swift */,
+				6C5F9E7A234F3E7800C088E1 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6C5F9E7B234F3E7800C088E1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E7C234F3E7800C088E1 /* Storyboard.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6C5F9E7D234F3E7800C088E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E7E234F3E7800C088E1 /* BookingInformation.swift */,
+				6C5F9E7F234F3E7800C088E1 /* Location.swift */,
+				6C5F9E80234F3E7800C088E1 /* BookingStatus.swift */,
+				6C5F9E81234F3E7800C088E1 /* BookingEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C5F9E82234F3E7800C088E1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E83234F3E7800C088E1 /* Map */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6C5F9E83234F3E7800C088E1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E84234F3E7800C088E1 /* MapCoordinator.swift */,
+				6C5F9E85234F3E7800C088E1 /* MapViewController.swift */,
+				6C5F9E86234F3E7800C088E1 /* Annotations */,
+				6C5F9E8A234F3E7800C088E1 /* MapViewModel.swift */,
+				6C5F9E8B234F3E7800C088E1 /* MapViewController.storyboard */,
+				6C5F9E8C234F3E7800C088E1 /* Protocols */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		6C5F9E86234F3E7800C088E1 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E87234F3E7800C088E1 /* VehicleAnnotation */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		6C5F9E87234F3E7800C088E1 /* VehicleAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E88234F3E7800C088E1 /* VehicleAnnotationView.swift */,
+				6C5F9E89234F3E7800C088E1 /* VehicleAnnotation.swift */,
+			);
+			path = VehicleAnnotation;
+			sourceTree = "<group>";
+		};
+		6C5F9E8C234F3E7800C088E1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E8D234F3E7800C088E1 /* MapCoordinatorType.swift */,
+				6C5F9E8E234F3E7800C088E1 /* MapViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6C5F9E8F234F3E7800C088E1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E90234F3E7800C088E1 /* SocketManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6C5F9E91234F3E7800C088E1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C5F9E92234F3E7800C088E1 /* AppCoordinator.swift */,
+				6C5F9E93234F3E7800C088E1 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		6C6DDA83234A687D0040134B = {
 			isa = PBXGroup;
 			children = (
@@ -97,16 +268,17 @@
 		6C6DDA8E234A687D0040134B /* UberDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6C6DDA8F234A687D0040134B /* AppDelegate.swift */,
-				6C6DDA91234A687E0040134B /* ViewController.swift */,
+				6C5F9E91234F3E7800C088E1 /* App */,
+				6C5F9E7D234F3E7800C088E1 /* Models */,
+				6C5F9E8F234F3E7800C088E1 /* Network */,
+				6C5F9E6D234F3E7800C088E1 /* Resources */,
+				6C5F9E82234F3E7800C088E1 /* Scenes */,
+				6C5F9E6B234F3E7800C088E1 /* SupportingFiles */,
+				6C5F9E71234F3E7800C088E1 /* Utilities */,
 				6C6DDA93234A687E0040134B /* Main.storyboard */,
 				6C6DDA96234A687F0040134B /* Assets.xcassets */,
 				6C6DDA98234A687F0040134B /* LaunchScreen.storyboard */,
 				6C6DDA9B234A687F0040134B /* Info.plist */,
-				6CA1B0B1234A8D96007B7360 /* APIConstants.swift */,
-				6CC87554234CB2A900BC9687 /* EventApiResponse.swift */,
-				6CC87556234CD8AB00BC9687 /* Model.swift */,
-				6CC87558234CD92700BC9687 /* ViewController+WebSocket.swift */,
 			);
 			path = UberDemo;
 			sourceTree = "<group>";
@@ -225,9 +397,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5F9E94234F3E7800C088E1 /* Info.plist in Resources */,
 				6C6DDA9A234A687F0040134B /* LaunchScreen.storyboard in Resources */,
 				6C6DDA97234A687F0040134B /* Assets.xcassets in Resources */,
+				6C5F9E96234F3E7800C088E1 /* LaunchScreen.storyboard in Resources */,
 				6C6DDA95234A687E0040134B /* Main.storyboard in Resources */,
+				6C5F9E95234F3E7800C088E1 /* Assets.xcassets in Resources */,
+				6C5F9EA8234F3E7800C088E1 /* MapViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +502,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC87557234CD8AB00BC9687 /* Model.swift in Sources */,
-				6CC87555234CB2A900BC9687 /* EventApiResponse.swift in Sources */,
-				6C6DDA92234A687E0040134B /* ViewController.swift in Sources */,
-				6C6DDA90234A687D0040134B /* AppDelegate.swift in Sources */,
-				6CC87559234CD92700BC9687 /* ViewController+WebSocket.swift in Sources */,
-				6CA1B0B2234A8D96007B7360 /* APIConstants.swift in Sources */,
+				6C5F9EAD234F3E7800C088E1 /* AppDelegate.swift in Sources */,
+				6C5F9E9C234F3E7800C088E1 /* SocketManagerType.swift in Sources */,
+				6C5F9E9A234F3E7800C088E1 /* StoryboardLoadable.swift in Sources */,
+				6C5F9EA0234F3E7800C088E1 /* Location.swift in Sources */,
+				6C5F9E98234F3E7800C088E1 /* Double+Additions.swift in Sources */,
+				6C5F9E97234F3E7800C088E1 /* MKMapView+Additions.swift in Sources */,
+				6C5F9EA9234F3E7800C088E1 /* MapCoordinatorType.swift in Sources */,
+				6C5F9EAC234F3E7800C088E1 /* AppCoordinator.swift in Sources */,
+				6C5F9E9E234F3E7800C088E1 /* Storyboard.swift in Sources */,
+				6C5F9EA5234F3E7800C088E1 /* VehicleAnnotationView.swift in Sources */,
+				6C5F9E99234F3E7800C088E1 /* CLCoordinate2D+Additions.swift in Sources */,
+				6C5F9E9F234F3E7800C088E1 /* BookingInformation.swift in Sources */,
+				6C5F9EA2234F3E7800C088E1 /* BookingEvent.swift in Sources */,
+				6C5F9EA3234F3E7800C088E1 /* MapCoordinator.swift in Sources */,
+				6C5F9E9B234F3E7800C088E1 /* Reusable.swift in Sources */,
+				6C5F9EA1234F3E7800C088E1 /* BookingStatus.swift in Sources */,
+				6C5F9EAB234F3E7800C088E1 /* SocketManager.swift in Sources */,
+				6C5F9EA7234F3E7800C088E1 /* MapViewModel.swift in Sources */,
+				6C5F9EA6234F3E7800C088E1 /* VehicleAnnotation.swift in Sources */,
+				6C5F9E9D234F3E7800C088E1 /* Coordinator.swift in Sources */,
+				6C5F9EA4234F3E7800C088E1 /* MapViewController.swift in Sources */,
+				6C5F9EAA234F3E7800C088E1 /* MapViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +546,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6C5F9E6F234F3E7800C088E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C5F9E70234F3E7800C088E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6C6DDA93234A687E0040134B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
