@@ -12,7 +12,7 @@ import MapKit
 class VehicleAnnotationView: MKAnnotationView {
 
 	private lazy var imageView: UIImageView = {
-		UIImageView(image: UIImage(named: "car-icon"))
+		UIImageView(image: UIImage(named: "car95"))
 	}()
 
 	/// The current bearing of the vehicle
